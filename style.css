@@ -1,8 +1,39 @@
 body {
-    background-color: #0a1128;
-    color: #1282a2;
+    background-color: #020408;
+    height: 100vh;
+    color: #46c3e6;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header{
+    margin: 0%;
+}
+
+img{
+    width: 35%;
+    box-sizing: border-box;
+    border-radius: 5%;
 }
 
 .links {
-    color: #1282a2;
+    color: #46c3e6;
+}
+
+h1{
+    color: aliceblue;
+}
+
+.titulo__destaque{
+    color: #46c3e6;
+}
+.apresentacao {
+    margin: 10%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
 }
