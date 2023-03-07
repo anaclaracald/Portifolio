@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@500;600&family=Titillium+Web:wght@600&display=swap');
+
+
 body {
     background-color: #020408;
     height: 100vh;
     color: #46c3e6;
     box-sizing: border-box;
-    text-align: center;
+    text-align: left;
 }
 
 header{
@@ -16,17 +19,10 @@ img{
     border-radius: 5%;
 }
 
-.links {
-    color: #46c3e6;
-}
-
-h1{
-    color: aliceblue;
-}
-
 .titulo__destaque{
     color: #46c3e6;
 }
+
 .apresentacao {
     margin: 10%;
     justify-content: space-between;
@@ -35,5 +31,38 @@ h1{
 }
 
 .apresentacao__conteudo {
-    width: 615px;
+    width: 60%;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: 'Genos', sans-serif; 
+    color: aliceblue;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    color: aliceblue;
+    margin-bottom: 15px;
+}
+
+.apresentacao__conteudo__links {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px
+}
+
+#link_um, #link_dois{
+    background-color: #46c3e6;
+    color: #12203d;
+    text-decoration: none;
+    padding: 12px 100px;
+    border-radius: 3px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#link_um:hover, #link_dois:hover{
+    padding: 15px 103px;
+    background-color: #c0d8d6;
 }
