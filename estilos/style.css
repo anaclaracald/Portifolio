@@ -12,6 +12,19 @@ header{
     margin: 0%;
 }
 
+.cabecalho {
+    background-color: #ba8fd6;
+    color: #3a3939;
+    padding: 2.5% 10%;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 17px; 
+} 
+
+.cabecalho_menu {
+    display: flex;
+    gap: 5%;
+}
+
 img{
     width: 35%;
     box-sizing: border-box;
@@ -54,13 +67,16 @@ img{
     width: 40%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     gap: 10px;
     vertical-align: center;
     margin: 0px 10px;
 }
 
-#link_um, #link_dois{
+#link_um_redes, #link_dois_redes, #link_tres_redes{
+    display: flex;
+    justify-content: center;
+    gap: 4%;
     color: #f6f6f6;
     text-decoration: none;
     align-items: center;
@@ -70,8 +86,22 @@ img{
     font-family: 'Titillium Web', sans-serif;
 }
 
-#link_um:hover, #link_dois:hover{
+#link_dois_redes {
+    gap: 6%;
+}
+
+#link_um_redes:hover, #link_dois_redes:hover, #link_tres_redes:hover{
     padding: 13px 16%px;
-    background-color: #622988;
-    color: aliceblue;
+    background-color: #ba8fd6;
+    color: rgb(5, 5, 5);
+}
+
+.rodape {
+    background-color: #ba8fd6;
+    color: #3a3939;
+    padding: 1% 1%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 17px;
 }
