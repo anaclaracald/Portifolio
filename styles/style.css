@@ -14,7 +14,6 @@ header{
 
 .cabecalho {
     background-color: #ba8fd6;
-    color: #3a3939;
     padding: 2.5% 10%;
     font-family: 'Titillium Web', sans-serif;
     font-size: 17px; 
@@ -25,7 +24,27 @@ header{
     gap: 5%;
 }
 
-img{
+.cabecalho_link_menu, .cabecalho_link_sobre_mim, .cabecalho_link_curriculo {
+    text-decoration: none;
+    color: #3a3939;
+}
+
+.cabecalho_link_menu:hover {
+    font-size: 18px;
+    color: #622988;
+}
+
+.cabecalho_link_sobre_mim:hover {
+    font-size: 18px;
+    color: #622988;
+}
+
+.cabecalho_link_curriculo:hover {
+    font-size: 18px;
+    color: #622988;
+}
+
+.foto_site {
     width: 35%;
     box-sizing: border-box;
     border-radius: 5%;
