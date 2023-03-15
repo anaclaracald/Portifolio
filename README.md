@@ -3,7 +3,7 @@
 * HTML
 * CSS
 
-![image](image.png)
+![image](visao_geral_pagina_inicial_portifolio.jpeg)
 
 Praticando e aprendendo html e css
 '''
