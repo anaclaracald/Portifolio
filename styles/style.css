@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Genos:wght@500;600&family=Titillium+Web:wght@600&display=swap');
 
+:root {
+    --cor-lilas: #ba8fd6;
+    --cor-roxo: #622988;
+    --cor-branco: #f6f6f6;
+    --cor-preto: #020408;
+    --cor-cinza: #3a3939;
 
-body {
-    background-color: #020408;
-    color: #bc90e6;
-    box-sizing: border-box;
-    align-items: center;
+    --fonte-titulos: 'Genos', sans-serif;
+    --fonte-conteudo: 'Titillium Web', sans-serif;
 }
 
 header{
@@ -13,7 +16,7 @@ header{
 }
 
 .cabecalho {
-    background-color: #ba8fd6;
+    background-color: var(--cor-lilas);
     padding: 2.5% 10%;
     font-family: 'Titillium Web', sans-serif;
     font-size: 17px; 
@@ -26,22 +29,29 @@ header{
 
 .cabecalho_link_menu, .cabecalho_link_sobre_mim, .cabecalho_link_curriculo {
     text-decoration: none;
-    color: #3a3939;
+    color: var(--cor-cinza);
 }
 
 .cabecalho_link_menu:hover {
     font-size: 18px;
-    color: #622988;
+    color: var(--cor-roxo);
 }
 
 .cabecalho_link_sobre_mim:hover {
     font-size: 18px;
-    color: #622988;
+    color: var(--cor-roxo);
 }
 
 .cabecalho_link_curriculo:hover {
     font-size: 18px;
-    color: #622988;
+    color: var(--cor-roxo);
+} 
+
+body {
+    background-color: var(--cor-preto);
+    color: var(--cor-lilas);
+    box-sizing: border-box;
+    align-items: center;
 }
 
 .foto_site {
@@ -51,7 +61,11 @@ header{
 }
 
 .titulo__destaque{
-    color: #bc90e6;
+    color: var(--cor-lilas);
+}
+
+.corpo_curriculo_titulo, .corpo_curriculo_estudos, .corpo_curriculo_projetos {
+    color: var(--cor-lilas);
 }
 
 .apresentacao {
@@ -71,14 +85,14 @@ header{
 .apresentacao__conteudo__titulo {
     margin: 0%;
     font-size: 36px;
-    font-family: 'Genos', sans-serif; 
-    color: aliceblue;
+    font-family: var(--fonte-titulos); 
+    color: var(--cor-branco);
 }
 
 .apresentacao__conteudo__texto {
     font-size: 20px;
-    font-family: 'Titillium Web', sans-serif;
-    color: aliceblue;
+    font-family: var(--fonte-conteudo);
+    color: var(--cor-branco);
     
 }
 
@@ -96,13 +110,13 @@ header{
     display: flex;
     justify-content: center;
     gap: 4%;
-    color: #f6f6f6;
+    color: var(--cor-branco);
     text-decoration: none;
     align-items: center;
-    border: 2px solid #622988;
+    border: 2px solid var(--cor-roxo);
     padding: 12px 15%;
     border-radius: 4px;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: var(--fonte-conteudo);
 }
 
 #link_dois_redes {
@@ -111,16 +125,16 @@ header{
 
 #link_um_redes:hover, #link_dois_redes:hover, #link_tres_redes:hover{
     padding: 13px 16%px;
-    background-color: #ba8fd6;
-    color: rgb(5, 5, 5);
+    background-color: var(--cor-lilas);
+    color: var(--cor-preto);
 }
 
 .rodape {
-    background-color: #ba8fd6;
-    color: #3a3939;
+    background-color: var(--cor-lilas);
+    color: var(--cor-cinza);
     padding: 1% 1%;
     display: flex;
     justify-content: center;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: var(--fonte-conteudo);
     font-size: 17px;
 }
