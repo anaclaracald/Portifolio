@@ -1,9 +1,9 @@
-# Portifolio
-> Status: em desenvolvimento
-* HTML
-* CSS
+<h1>Portifólio</h1>
+<h3>Status: em desenvolvimento</h3> 
+   <ul>
+     <li>HTML</li>
+     <li>CSS</li>
+   </ul>
 
-![image](visao_geral_pagina_inicial_portifolio.jpeg)
+<p>*Projeto inicial feito com auxílio e aprendizados da formação de HTML e CSS da Alura.</p>
 
-Praticando e aprendendo html e css
-'''
