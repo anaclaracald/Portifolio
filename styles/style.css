@@ -94,7 +94,13 @@ body {
     font-size: 1.25rem;
     font-family: var(--fonte-conteudo);
     color: var(--cor-branco);
-    
+    text-decoration: none;
+}
+
+#itens{
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+
 }
 
 .apresentacao__conteudo__links {
