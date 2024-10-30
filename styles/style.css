@@ -33,17 +33,14 @@ header, body{
 }
 
 .cabecalho_link_menu:hover {
-    font-size: 1.1rem;
     color: var(--cor-roxo);
 }
 
 .cabecalho_link_sobre_mim:hover {
-    font-size: 1.1rem;
     color: var(--cor-roxo);
 }
 
 .cabecalho_link_curriculo:hover {
-    font-size: 1.1rem;
     color: var(--cor-roxo);
 } 
 
