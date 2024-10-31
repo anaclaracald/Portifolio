@@ -11,10 +11,11 @@ const StyledButton: React.FC<StyledButtonProps> = ({children}) => {
     const StyledButton = styled("button")(()=> ({
         backgroundColor:"transparent",
         border: `1px solid ${theme.palette.secondary.dark}`,
-        borderRadius: "3px",
+        borderRadius: "10px",
         padding: "5px 15px",
         width: "100%",
-        display: "inline-flex",
+        display: "flex",
+        textAlign:"center",
         alignItems: "center",
         justifyContent: "center",
         color: theme.palette.secondary.dark,

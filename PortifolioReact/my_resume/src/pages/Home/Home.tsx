@@ -1,7 +1,8 @@
 import NavBar from "../../components/NavBar/NavBar.tsx"
 import About from "./sections/About/About"
+import Foot from "./sections/Foot/Foot.tsx"
 import Hero from "./sections/Hero/Hero"
-import Projects from "./sections/Projects/Projects"
+import Projects from "./sections/Projects/Projects.tsx"
 import Skills from "./sections/Skills/Skills"
 
 const Home = () =>{
@@ -11,9 +12,10 @@ const Home = () =>{
       <>
         <NavBar />
         <Hero />
-        <About />
-        <Projects />
         <Skills />
+        <Projects /> 
+        <About />
+        <Foot />
       </>
     )
   }

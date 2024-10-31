@@ -1,11 +1,13 @@
 import styled from "@mui/material/styles/styled"
-import { Container, Typography} from "@mui/material"
+import {  Container, Typography} from "@mui/material"
 
 const Home = () =>{
   
-    const StyledSkillsSection = styled("div") (({ theme }) => ({
-      backgroundColor: theme.palette.secondary.light,
-      height:"103vh",
+    const StyledFootSection = styled("div") (({ theme }) => ({
+      backgroundColor: theme.palette.secondary.contrastText,
+      height:"20vh",
+      display: "flex",
+      alignItems: "center",
       [theme.breakpoints.up('xs')]: { 
         paddingTop: "100px",
       },
@@ -16,14 +18,15 @@ const Home = () =>{
 
     return (
       <>
-        <StyledSkillsSection>
+        <StyledFootSection>
           <Container maxWidth="lg">
             <Typography variant="h3" textAlign="center" color="primary">
-              Skills
+                Foot
             </Typography>
+            
           </Container>
         
-        </StyledSkillsSection>
+        </StyledFootSection>
       </>
     )
   }
