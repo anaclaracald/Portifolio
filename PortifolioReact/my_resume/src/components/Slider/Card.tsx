@@ -11,12 +11,6 @@ import StyledButton from '../StyledButton/StyledButton';
 function Card1() {
   return (
     <Card sx={{ maxWidth: 345 }}>
-      <CardMedia
-        component="img"
-        alt="Sistema Mercado"
-        height="140"
-        image="/images/montanha.jpg" 
-      />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           Sistema Mercado
@@ -40,12 +34,6 @@ function Card1() {
 function Card2() {
   return (
     <Card sx={{ maxWidth: 345 }}>
-      <CardMedia
-        component="img"
-        alt="Montanha"
-        height="140"
-        image="/images/montanha.jpg" // Substitua por seu caminho de imagem
-      />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           Natureza
@@ -69,12 +57,6 @@ function Card2() {
 function Card3() {
   return (
     <Card sx={{ maxWidth: 345 }}>
-      <CardMedia
-        component="img"
-        alt="Montanha"
-        height="140"
-        image="/images/montanha.jpg" // Substitua por seu caminho de imagem
-      />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           Natureza
@@ -98,12 +80,6 @@ function Card3() {
 function Card4() {
   return (
     <Card sx={{ maxWidth: 345 }}>
-      <CardMedia
-        component="img"
-        alt="Montanha"
-        height="140"
-        image="/images/montanha.jpg" // Substitua por seu caminho de imagem
-      />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           Natureza
