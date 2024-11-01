@@ -4,7 +4,7 @@ import { Box, Container, Grid, Typography } from "@mui/material"
 import DownloadIcon from '@mui/icons-material/Download';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import StyledButton from "../../../../components/StyledButton/StyledButton";
-import { AnimatedBackground } from "../../../../components/AnimatedBackground/AnimatedBackground";
+import { AnimatedBackground } from "../../../../components/AnimatedBackground/AnimatedBackground1";
 
 
 const Home = () =>{
@@ -23,7 +23,7 @@ const Home = () =>{
     }))
 
     const StyledImg = styled("img") (({theme}) => ({
-      width: "90%",
+      width: "100%",
       borderRadius: "50%",
       border: `1px solid ${theme.palette.secondary.dark}`
     }))
