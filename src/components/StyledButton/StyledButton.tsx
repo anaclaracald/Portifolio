@@ -1,12 +1,14 @@
 import { styled } from "@mui/material"
 import theme from "../../theme"
-import { ReactNode } from "react"
+import { ReactElement, ReactNode } from "react"
 
 interface StyledButtonProps{
-    children: ReactNode
+    children: ReactNode;
+    onClick?: () => void; 
+    startIcon?: ReactElement;
 }
 
-const StyledButton: React.FC<StyledButtonProps> = ({children}) => {
+const StyledButton: React.FC<StyledButtonProps> = ({children, onClick, startIcon}) => {
 
     const StyledButton = styled("button")(()=> ({
         backgroundColor:"transparent",
@@ -19,6 +21,7 @@ const StyledButton: React.FC<StyledButtonProps> = ({children}) => {
         alignItems: "center",
         justifyContent: "center",
         color: theme.palette.secondary.dark,
+        cursor: "pointer",
         '&:hover':{
             color: theme.palette.secondary.contrastText,
             backgroundColor: theme.palette.secondary.light
@@ -27,7 +30,8 @@ const StyledButton: React.FC<StyledButtonProps> = ({children}) => {
 
     return(
         <>
-        <StyledButton >
+        <StyledButton onClick={onClick}>
+            {startIcon && <span style={{ marginRight: "8px" }}>{startIcon}</span>} {/* Renderiza o ícone, se houver */}
             {children}
         </StyledButton>
         </>

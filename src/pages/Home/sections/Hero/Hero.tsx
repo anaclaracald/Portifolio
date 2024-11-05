@@ -5,7 +5,7 @@ import DownloadIcon from '@mui/icons-material/Download';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import StyledButton from "../../../../components/StyledButton/StyledButton";
 import { AnimatedBackground } from "../../../../components/AnimatedBackground/AnimatedBackground1";
-
+import cvfile from '../../../../assets/pdf/resumo-alyne.pdf';
 
 const Home = () =>{
   
@@ -28,6 +28,21 @@ const Home = () =>{
       border: `1px solid ${theme.palette.secondary.dark}`
     }))
 
+    const handleDownloadCV = () => {
+      const link = document.createElement('a');
+      link.href = cvfile;
+      link.download = cvfile;
+      link.click();
+    };
+    
+    const handleContactMe = () => {
+      const email = 'ana05clara24@gmail.com';
+      const subject = 'Contato';
+      const body = 'Olá Ana Clara, gostaria de entrar em contato.';
+      const mailtoUrl = `mailto:${encodeURIComponent(email)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      window.location.href = mailtoUrl;
+    };
+
     return (
       <>
         <StyledHero>
@@ -48,14 +63,12 @@ const Home = () =>{
                 <Typography color="secondary" variant="h2" textAlign="center">I'm a software engineer!</Typography>
                 <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
                   <Grid item xs={12} md={4} display="flex" justifyContent="center">
-                    <StyledButton>
-                      <DownloadIcon/>
+                    <StyledButton onClick={handleDownloadCV} startIcon={<DownloadIcon />}>
                       Download CV</StyledButton>
                   </Grid>
                   <Grid item xs={12} md={4} display="flex" justifyContent="center">
-                    <StyledButton>
-                    <MailOutlineIcon/>
-                    Contact me</StyledButton>
+                    <StyledButton onClick={handleContactMe} startIcon={<MailOutlineIcon />}>
+                      Contact me</StyledButton>
                   </Grid>
                 </Grid>
                 
