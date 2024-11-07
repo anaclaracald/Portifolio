@@ -29,21 +29,20 @@ function Card1() {
   );
 }
 
-// Card 2
 function Card2() {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Natureza
+          Sistema de gerenciamento de Pedidos
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Explore a beleza da natureza.
+          Aplicação para gerenciar pedidos em um restaurante. Permitindo o cadastro e gerenciamento de produtos do cardápio, clientes, pedidos e notificações para a cozinha e clientes.
         </Typography>
       </CardContent>
       <CardActions>
         <StyledButton>
-          <Link target="_blank" href="https://github.com/anaclaracald/linguagemC/blob/master/estruturaDados/Uni/SistemaMercado/SistemaMercado.c" underline="none" color="inherit">
+          <Link target="_blank" href="https://github.com/anaclaracald/gerenciamento-pedidos" underline="none" color="inherit">
             <GitHubIcon></GitHubIcon>github
           </Link>
         </StyledButton>
@@ -52,21 +51,20 @@ function Card2() {
   );
 }
 
-// Card 3
 function Card3() {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Natureza
+          Sistema de recomendações de livros
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Explore a beleza da natureza.
+        Este é um sistema de recomendação de livros que utiliza inteligência artificial para recomendar livros aos usuários com base em suas preferências e hábitos de leitura.
         </Typography>
       </CardContent>
       <CardActions>
         <StyledButton>
-          <Link target="_blank" href="https://github.com/anaclaracald/linguagemC/blob/master/estruturaDados/Uni/SistemaMercado/SistemaMercado.c" underline="none" color="inherit">
+          <Link target="_blank" href="https://github.com/anaclaracald/sistema_recomendacao_livros" underline="none" color="inherit">
             <GitHubIcon></GitHubIcon>github
           </Link>
         </StyledButton>
@@ -75,21 +73,20 @@ function Card3() {
   );
 }
 
-// Card 4
 function Card4() {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Natureza
+          Portifólio
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Explore a beleza da natureza.
+          Esse portifólio foi feito com React e TypeScript. Me permitiu aprender um pouco mais sobre essas tecnologias no Front-end.
         </Typography>
       </CardContent>
       <CardActions>
         <StyledButton>
-          <Link target="_blank" href="https://github.com/anaclaracald/linguagemC/blob/master/estruturaDados/Uni/SistemaMercado/SistemaMercado.c" underline="none" color="inherit">
+          <Link target="_blank" href="https://github.com/anaclaracald/Portifolio" underline="none" color="inherit">
             <GitHubIcon></GitHubIcon>github
           </Link>
         </StyledButton>
