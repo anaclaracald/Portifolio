@@ -15,7 +15,9 @@ function Card1() {
           Sistema Mercado
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Diversas funcionalidades. Linguagens e tecnologias: C.
+          Este projeto implementa um Sistema de Mercado simples em linguagem C, onde os usuários podem cadastrar produtos, 
+          adicioná-los a um carrinho de compras, visualizar o carrinho, fechar o pedido, entre outras funcionalidades. 
+          O sistema simula operações essenciais de um mercado, como listagem de produtos e cálculo de subtotais no carrinho.
         </Typography>
       </CardContent>
       <CardActions >
@@ -59,7 +61,7 @@ function Card3() {
           Sistema de recomendações de livros
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        Este é um sistema de recomendação de livros que utiliza inteligência artificial para recomendar livros aos usuários com base em suas preferências e hábitos de leitura.
+          Este é um sistema de recomendação de livros que utiliza inteligência artificial para recomendar livros aos usuários com base em suas preferências e hábitos de leitura.
         </Typography>
       </CardContent>
       <CardActions>
@@ -81,7 +83,8 @@ function Card4() {
           Portifólio
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Esse portifólio foi feito com React e TypeScript. Me permitiu aprender um pouco mais sobre essas tecnologias no Front-end.
+          Este é o código-fonte do meu portfólio pessoal, desenvolvido com React e TypeScript, para apresentar meus projetos, 
+          habilidades e experiência profissional de forma interativa e visualmente atraente.
         </Typography>
       </CardContent>
       <CardActions>
