@@ -20,7 +20,7 @@ function Card1() {
       </CardContent>
       <CardActions >
         <StyledButton>
-          <Link target="_blank" href="https://github.com/anaclaracald/linguagemC/blob/master/estruturaDados/Uni/SistemaMercado/SistemaMercado.c" underline="none" color="inherit">
+          <Link target="_self" href="https://github.com/anaclaracald/linguagemC/blob/master/estruturaDados/Uni/SistemaMercado/SistemaMercado.c" underline="none" color="inherit">
             <GitHubIcon></GitHubIcon>github
           </Link>
         </StyledButton>
@@ -42,7 +42,7 @@ function Card2() {
       </CardContent>
       <CardActions>
         <StyledButton>
-          <Link target="_blank" href="https://github.com/anaclaracald/gerenciamento-pedidos" underline="none" color="inherit">
+          <Link target="_self" href="https://github.com/anaclaracald/gerenciamento-pedidos" underline="none" color="inherit">
             <GitHubIcon></GitHubIcon>github
           </Link>
         </StyledButton>
@@ -64,7 +64,7 @@ function Card3() {
       </CardContent>
       <CardActions>
         <StyledButton>
-          <Link target="_blank" href="https://github.com/anaclaracald/sistema_recomendacao_livros" underline="none" color="inherit">
+          <Link target="_self" href="https://github.com/anaclaracald/sistema_recomendacao_livros" underline="none" color="inherit">
             <GitHubIcon></GitHubIcon>github
           </Link>
         </StyledButton>
@@ -86,7 +86,7 @@ function Card4() {
       </CardContent>
       <CardActions>
         <StyledButton>
-          <Link target="_blank" href="https://github.com/anaclaracald/Portifolio" underline="none" color="inherit">
+          <Link target="_self" href="https://github.com/anaclaracald/Portifolio" underline="none" color="inherit">
             <GitHubIcon></GitHubIcon>github
           </Link>
         </StyledButton>
