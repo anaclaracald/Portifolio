@@ -42,8 +42,8 @@ const NavBar = () => {
 
           <Box display="flex" gap={2}>
             <StyledMenu onClick={() => handleScroll("about")}>About</StyledMenu>
-            <StyledMenu onClick={() => handleScroll("skills")}>Skills</StyledMenu>
             <StyledMenu onClick={() => handleScroll("projects")}>Projects</StyledMenu>
+            <StyledMenu onClick={() => handleScroll("skills")}>Skills</StyledMenu>
           </Box>
         </StyledToolbar>
       </AppBar>
