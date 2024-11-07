@@ -31,7 +31,7 @@ const StyledButton: React.FC<StyledButtonProps> = ({children, onClick, startIcon
     return(
         <>
         <StyledButton onClick={onClick}>
-            {startIcon && <span style={{ marginRight: "8px" }}>{startIcon}</span>} {/* Renderiza o ícone, se houver */}
+            {startIcon && <span style={{ marginRight: "8px" }}>{startIcon}</span>} 
             {children}
         </StyledButton>
         </>
