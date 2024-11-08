@@ -14,7 +14,7 @@ const projects = [
   {
     title: "Sistema Mercado",
     description: "Este projeto implementa um Sistema de Mercado simples em linguagem C, onde os usuários podem cadastrar produtos, adicioná-los a um carrinho de compras, visualizar o carrinho, fechar o pedido, entre outras funcionalidades. ",
-    link: "https://github.com/anaclaracald/linguagemC/blob/master/estruturaDados/Uni/SistemaMercado/SistemaMercado.c",
+    link: "https://github.com/anaclaracald/SistemaMercado",
   },
   {
     title: "Sistema de gerenciamento de Pedidos",
